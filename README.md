@@ -28,6 +28,7 @@ The purpose of this analysis is to create a binary classifier that can predict w
             First hidden layer: 80 neurons, relu activation
             Second hidden layer: 30 neurons, relu activation
             Output layer: 1 neuron, sigmoid activation
+            Epochs: 100
         Performance:
             Accuracy: 0.7281
             Loss: 0.5658
@@ -37,15 +38,17 @@ The purpose of this analysis is to create a binary classifier that can predict w
             Second hidden layer: 50 neurons, relu activation
             Third hidden layer: 25 neurons, relu activation
             Output layer: 1 neuron, sigmoid activation
+            Epochs: 200
         Performance:
             Accuracy: 0.7281
             Loss: 0.5658
 #### Second Optimization:
 ####    Neurons and Layers:
-            First hidden layer: 100 neurons, LeakyReLU activation
-            Second hidden layer: 50 neurons, LeakyReLU activation
-            Third hidden layer: 25 neurons, LeakyReLU activation
+            First hidden layer: 100 neurons, Relu activation
+            Second hidden layer: 50 neurons, Relu activation
+            Third hidden layer: 25 neurons, Relu activation
             Output layer: 1 neuron, sigmoid activation
+            Epochs: 100
         Performance:
             Accuracy: 0.7268
             Loss: 0.6360
@@ -55,11 +58,9 @@ The purpose of this analysis is to create a binary classifier that can predict w
             Second hidden layer: 50 neurons, LeakyReLU activation
             Third hidden layer: 25 neurons, LeakyReLU activation
             Output layer: 1 neuron, sigmoid activation
+            Epochs: 200
         Performance:
             Accuracy: 0.7257
             Loss: 0.6301
 ## Summary
 The deep learning model created for Alphabet Soup achieved an initial accuracy of 72.81%. Despite multiple optimization attempts, the target performance of 75% accuracy was not achieved. The optimizations included adding more neurons, adding an additional hidden layer, and experimenting with different activation functions.
-
-### Recommendation: 
-To further improve the model’s performance, consider exploring other machine learning algorithms such as Random Forest, Gradient Boosting, or Support Vector Machines. These algorithms might provide better performance for this classification problem. Additionally, further feature engineering and hyperparameter tuning could help enhance the model’s accuracy.
